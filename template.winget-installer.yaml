@@ -1,0 +1,15 @@
+PackageIdentifier: "{{author}}.{{name}}"
+PackageVersion: "{{version}}"
+Platform:
+ - "Windows.Desktop"
+InstallerType: "msi"
+InstallModes:
+ - "silent"
+AppsAndFeaturesEntries:
+ - UpgradeCode: "{{upgradecode}}"
+Installers:
+ - Architecture: "x64"
+   InstallerUrl: "https://github.com/ezoa-page/{{name}}/releases/download/{{version}}/{{name}}.msi"
+   InstallerSha256: "{{installersha}}"
+ManifestType: "installer"
+ManifestVersion: "1.6.0"

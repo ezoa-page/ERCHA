@@ -1,0 +1,5 @@
+PackageIdentifier: "{{author}}.{{name}}"
+PackageVersion: "{{version}}"
+DefaultLocale: "en-US"
+ManifestType: "version"
+ManifestVersion: "1.6.0"

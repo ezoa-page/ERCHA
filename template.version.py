@@ -1,0 +1,1 @@
+ercha_version='{{version}}'
